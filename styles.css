@@ -24,12 +24,34 @@ body {
 
 .head-top {
     display: grid;
-    grid-template-columns: 1fr 7fr 1fr 1fr 1fr 2fr;
+    grid-template-columns: 4rem 7fr 1fr 1fr 2fr;
+    align-items: center;
+    justify-items: center;
+    margin-left: 2rem;
+}
+
+input {
+    width: 40rem;
+    height: 2rem;
+    background-color: #e2e8f0;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+#htop-name {
+    font-size: 1.3rem;
+    margin-right: 3rem;
+}
+
+#bell-icon {
+    margin-left: 4rem
 }
 
 .head-bottom {
     
 }
+
 
 .sidebar {
     position: relative;
@@ -58,5 +80,5 @@ body {
 }
 
 .content {
-    background-color: #f1f5f9;
+    background-color: #e2e8f0;
 }
