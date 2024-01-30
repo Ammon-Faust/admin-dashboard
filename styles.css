@@ -18,6 +18,17 @@ body {
     -webkit-box-shadow: 1px 2px 14px 6px rgba(0,0,0,0.20); 
     box-shadow: 1px 2px 14px 6px rgba(0,0,0,0.20);
     position: relative;
+    display: grid;
+    grid-template-rows: 1fr 1.5fr;
+}
+
+.head-top {
+    display: grid;
+    grid-template-columns: 1fr 7fr 1fr 1fr 1fr 2fr;
+}
+
+.head-bottom {
+    
 }
 
 .sidebar {
@@ -26,7 +37,7 @@ body {
     grid-column: 1;
     grid-row: 1 / 3;
     display: grid;
-    grid-template-rows: 10rem 4rem 4rem 4rem 4rem 4rem 4rem 4rem 4rem 4rem 4rem;
+    grid-template-rows: 7rem 4rem 4rem 4rem 4rem 4rem 4rem 4rem 4rem 4rem 4rem;
     color: white;
     justify-content: start;
     padding-left: 2rem;
