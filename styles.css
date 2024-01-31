@@ -131,4 +131,25 @@ button {
 
 .content {
     background-color: #e2e8f0;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.content-left {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: .2fr 3fr 3fr 3fr;
+    margin: 1.5rem 1.5rem 1.5rem 1.5rem;
+    gap: 1.5rem;
+}
+
+#card {
+    background-color: white;
+    border-left: #f59e0b solid 9px;
+    border-radius: 10px;
+}
+
+
+.content-right {
+
 }
